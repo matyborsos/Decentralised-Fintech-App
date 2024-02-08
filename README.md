@@ -1,4 +1,11 @@
-# Check your Balance
+# Decentralised Fintech App - MAT Crypto Token
+
+Used the motoko language to depelope my crypto token as an actor and give him properties and sctions. The front end is created using React.js.
+
+
+## Some usefull steps, after using dfx start and sfx deploy do deploy the app on the blockchain. Also make sure to use npm install to install all the node module, and nodemon index.js to start the server:
+
+### Check your Balance
 
 1. Find out your principal id:
 
@@ -26,7 +33,7 @@ echo $OWNER_PUBLIC_KEY
 dfx canister call token balanceOf "( $OWNER_PUBLIC_KEY )"
 ```
 
-# Charge the Canister
+### Charge the Canister
 
 
 1. Check canister ID:
@@ -49,7 +56,7 @@ echo $CANISTER_PUBLIC_KEY
 dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
 ```
 
-# Deploy the Project to the Live IC Network
+### Deploy the Project to the Live IC Network
 
 1. Create and deploy canisters:
 
