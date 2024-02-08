@@ -3,7 +3,8 @@
 Used the motoko language to depelope my crypto token as an actor and give him properties and sctions. The front end is created using React.js.
 
 
-## Some usefull steps, after using dfx start and sfx deploy do deploy the app on the blockchain. Also make sure to use npm install to install all the node module, and nodemon index.js to start the server:
+## Some usefull steps:
+Don't forget to use dfx start and sfx deploy do deploy the app on the blockchain. Also make sure to use npm install to install all the node module, and nodemon index.js to start the server:
 
 ### Check your Balance
 
