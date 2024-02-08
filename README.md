@@ -2,6 +2,11 @@
 
 Used the motoko language to depelope my crypto token as an actor and give him properties and sctions. The front end is created using React.js.
 
+### Preview of the website:
+<img width="1448" alt="Screenshot 2024-02-08 at 11 53 10" src="https://github.com/matyborsos/Decentralised-Fintech-App/assets/122999210/d72e8079-6b59-487b-a7d8-a2d8a576590d">
+
+
+
 
 ## Some usefull steps:
 Don't forget to use dfx start and sfx deploy do deploy the app on the blockchain. Also make sure to use npm install to install all the node module, and nodemon index.js to start the server:
